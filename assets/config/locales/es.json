@@ -1,0 +1,5 @@
+{
+  "NSCameraUsageDescription": "Esta aplicación utiliza la cámara para tomar y subir fotos de monitoreo a la aplicación",
+  "NSLocationWhenInUseUsageDescription": "Esta aplicación utiliza su ubicación para mejorar su experiencia de monitoreo",
+  "NSLocationAlwaysUsageDescription": "usamos notificaciones automáticas para enviarle notificaciones importantes y actualizaciones sobre su monitoreo"
+}
