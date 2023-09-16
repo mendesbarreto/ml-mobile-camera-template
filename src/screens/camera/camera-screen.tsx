@@ -19,6 +19,10 @@ export function CameraScreen() {
         `tick: ${tick} frame w:${frame.width} h:${frame.height} t:${frame.timestamp} `
       );
     }
+    if (tick.value % 180 === 0) {
+      console.log(`pixelBuffer:\n ${frame.toArrayBuffer()}`);
+    }
+
     tick.value += 1;
   }, []);
 
